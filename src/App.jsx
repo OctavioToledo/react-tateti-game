@@ -25,8 +25,8 @@ function App() {
     setTurn(TURNS.X);
     setWinner(null);
 
-    window.localStorage.removeItem('board');
-    window.localStorage.removeItem('turn');
+    window.localStorage.removeItem("board");
+    window.localStorage.removeItem("turn");
   };
 
   const updateBoard = (index) => {
